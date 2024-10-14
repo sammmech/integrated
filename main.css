@@ -1,0 +1,572 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: "Lato", sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+p{
+    font-family: "Lato", sans-serif;
+}
+
+/* header  */
+
+
+header{
+    background-color: #f58d17;
+}
+
+header .head a{
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+
+header .head a:hover{
+   width: 20px;
+}
+
+/* header  */
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #222;
+}
+
+
+
+
+/* =================logo =================== */
+
+.navbar .container img{
+    animation: imgRotate 10s linear infinite;
+    clip-path: circle(50% at 50% 50%);
+}
+
+@keyframes imgRotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+/* ==================logo ================== */
+
+
+
+
+.nav-item a{
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-item a:hover{
+   
+    color: #f58d17;
+}
+
+img{
+    min-width: 100%;
+}
+
+
+/* Btn  */
+
+nav .btn{
+    border-radius: 0; 
+    padding: 14px 28px;
+}
+
+nav .btn-brand{
+    color: #fff;
+    font-weight: 500;
+    border-color: #f58d17;
+    background-color: #f58d17;
+}
+
+nav .btn-brand:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px rgb(34, 34, 34);
+}
+ 
+
+.container .btn-brand{
+    border-radius: 5%; 
+    padding: 14px 28px;
+    color: #fff;
+    font-weight: 500;
+    border-color: #f58d17;
+    background-color: #f58d17;
+   
+}
+
+.container .btn-brand:hover{
+  transform: scale(1.1);
+    border-color: #d37810;
+    background-color: #d37810;
+    color: #fff;
+}
+
+
+
+/* carousel  */
+
+
+
+
+
+
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photo/cool2.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+   
+}
+
+
+
+
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photo/cool3.jpeg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+   
+}
+
+
+
+
+
+
+
+
+.slide-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photo/cool4.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+   
+}
+
+
+
+
+
+
+
+
+
+.slide-4{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photo/cool5.jpg);
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+   
+}
+
+
+
+
+.shadow-on-hover{
+    transition: all 0.2s;
+}
+
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.822);
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before{
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background: #ffffff;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgba(0, 0, 0, 0.6); 
+  width: 40px;
+  height: 100px;
+  margin: auto;
+}
+
+
+/* carousel  */
+
+
+
+
+
+/* animation  */
+
+
+
+
+.carousel h6{
+    visibility: visible;
+    animation-name: fadeInLeftBig;
+}
+
+
+.fadeInLeftBig {
+    animation-name: fadeInLeftBig;
+  }
+
+
+
+  .animated {
+    animation-duration: 2s;
+    animation-fill-mode: both; 
+  }
+
+
+
+  .container-xxl img{
+    visibility: visible;
+    animation-name: fadeInUp;
+  }
+
+
+
+
+  .fadeInUp {
+    animation-name: fadeInUp;
+  }
+
+
+
+
+/* animation  */
+
+
+
+
+/* ==================about====================  */
+
+
+.about h2, h3{
+    font-family: "Raleway", sans-serif;
+    font-size: bold;
+   
+} 
+
+.about .container-xxl h5{
+   
+    color: #f58d17;
+}
+
+
+.about .container-xxl .border{
+    background-color: #f58d17;
+}
+
+
+
+.about .container-xxl .chop{
+    background: #f58d17;
+}
+
+/* ======================about==================  */
+
+
+
+
+
+
+/* ==========================services=================  */
+
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+
+
+
+
+/* ===========tabs==========  */
+#services .nav-pills .nav-link{
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#services .nav-pills .nav-link.active {
+    background-color: #f58d17;
+    color: #ffffff;
+}
+
+
+
+#services .menu-item svg{
+    width: 60px;
+   
+    color: #222;
+    border-radius: 50%;
+}
+
+
+.menu-item .stars{
+    color: #f58d17;
+}
+
+
+
+#services h5 a{
+    text-decoration: none;
+    color: #222;
+}
+
+
+#services h5 a:hover{
+    color: #f58d17;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================milestone section================================== */
+
+
+
+
+
+#milestone {
+    background: linear-gradient(rgba(245, 141, 23, 0.9), rgba(245, 141, 23, 0.9)), url(photo/cool5.jpg);
+}
+
+
+
+
+#milestone .display-4,
+#milestone p{
+    color: #ffffff;
+}
+
+
+
+#milestone .display-4{
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* ===================run section=================  */
+
+
+
+
+.run{
+    background: #f9f9f9;
+}
+
+.run h2, h3{
+    font-family: "Raleway", sans-serif;
+    font-size: bold;
+   
+} 
+
+
+.run p{
+    font-family: "Lato", sans-serif;
+   
+}
+
+
+
+.run .card{
+    background-color: #f58d17;
+    border-color: #f58d17;
+    box-shadow: 10px 10px 10px rgb(34, 34, 34);
+    margin: 20px 10px;
+}
+
+
+
+
+.run .card-body i{
+    font-size: 50px;
+}
+
+
+.run .card-body p{
+    font-size: 0.9rem;
+    font-family: "Lato", sans-serif;
+}
+/* our service  */
+
+
+
+
+
+.run .card-body h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.run button{
+    font-family: "Lato", sans-serif;
+}
+
+
+.run .card:hover{
+transform: scale(1.1);
+box-shadow: 10px 10px 10px rgb(34, 34, 34);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================================footrer ======================================================================  */
+
+
+
+
+
+
+
+.footer-top{
+    margin-bottom: 30px;
+}
+
+footer h3{
+    font-size: 2vmin;
+   font-weight: bold;
+   color: #f58d17;
+    font-family: "Raleway", sans-serif;
+}
+
+footer h6{
+color: #f58d17;
+}
+
+footer p{
+    font-size: 2.5vmin;
+    font-family: "Lato", sans-serif;
+}
+
+footer a{
+    color: #f9f9f9;
+    font-size: 24px;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+footer a:hover{
+    color:#f58d17;
+}
+
+
+
+
+.footer-bottom{
+    font-family: "Lato", sans-serif;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+
+/* footer ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+
+
+    #heroSlider .carousel-inner{
+        height: 70vh;
+    }
+
+    #heroSlider .carousel-inner .wow{
+        height: 40vh;
+    }
+
+
+  header .check a{
+      font-size: 9px;
+    }
+} 
